@@ -1,0 +1,29 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+
+}
+
+img {
+    width: 50%;
+}
+
+/* @media(min-width:768px ){
+    .news-input{
+        width: 50%;
+    }
+
+} */
+
+/* upper bali media query hai taki jo input field hai newletter ki uski width ko chota kar sake jo ki humne directly copy paste kara hai bootstrap se */
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+
+}
+
+.img1{
+    margin-left: 30%;
+}
